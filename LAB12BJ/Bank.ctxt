@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Bank
+comment1.params=nameOfBank
+comment1.target=Bank(java.lang.String)
+comment1.text=\n\ Constructor\:\ initializes\ all\ attributes\n\ sets\ the\ array\ of\ accounts\ to\ 100\ accounts\ to\ make\ sure\ there\ are\ enough\ initialized\n\ sets\ the\ number\ of\ accounts\ to\ 0\n\n\ @param\ nameOfBank\ the\ name\ of\ the\ bank\n
+comment2.params=account
+comment2.target=void\ addAccount(Account)
+comment2.text=\n\ this\ adds\ a\ new\ account\ into\ the\ array\ of\ accounts\ there\ are\ and\ then\ increments\ the\ number\ of\ accounts\n\n\ @param\ account\ account\ is\ putting\ an\ account\ in\ the\ array\ of\ accounts\ using\ the\ numOfAccounts\ and\ the\ index\n
+comment3.params=id
+comment3.target=Account\ search(java.lang.String)
+comment3.text=\n\ This\ search\ methods\ uses\ a\ count\ controlled\ loop\ to\ go\ through\ the\ array\ of\ Accounts\n\ to\ find\ the\ account\ based\ on\ its\ id\ when\ the\ account\ was\ created\n\n\ @param\ id\ is\ the\ account\ number\ that\ is\ being\ searched\ for\n\ @return\ accounts[i]\ ||\ null\n
+comment4.params=id\ amount
+comment4.target=void\ deposit(java.lang.String,\ Money)
+comment4.text=\n\ Deposits\ the\ money\ amount\ into\ the\ account\ based\ on\ the\ id\ of\ the\ account\n\n\ @param\ id\ is\ the\ account\ number\n\ @param\ amount\ amounts\ that\ wants\ to\ be\ added\n
+comment5.params=id\ amount
+comment5.target=void\ withdraw(java.lang.String,\ Money)
+comment5.text=\n\ Withdraws\ the\ money\ amount\ into\ the\ account\ based\ on\ the\ id\ of\ the\ account\n\n\ @param\ id\ is\ the\ account\ number\n\ @param\ amount\ amounts\ that\ wants\ to\ be\ subtracted\n
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment6.text=\n\ Takes\ all\ the\ Banks\ account\ and\ makes\ it\ to\ string\n\n\ @return\ str\ the\ bank\ to\ sting\n
+comment7.params=
+comment7.target=java.lang.String\ getBankName()
+comment7.text=\n\n\ @return\ nameOfBank\n
+comment8.params=
+comment8.target=int\ getNumOfAccounts()
+comment8.text=\n\n\ @return\ numOfAccounts\n
+numComments=9
